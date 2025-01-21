@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1372</width>
+    <height>734</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QPushButton" name="reload_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>1220</x>
+     <y>20</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Reload</string>
+   </property>
+  </widget>
+  <widget class="QTreeWidget" name="orderDetail_treeWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>60</y>
+     <width>1191</width>
+     <height>671</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <column>
+    <property name="text">
+     <string>id</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>วันที่ผลิต</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>ชื่อลูกค้า</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>ที่อยู่</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>ทะเบียนรถ</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>อายุ</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>slump</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="print_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>1220</x>
+     <y>80</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>พิมพ์</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="searchDate_label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>ค้นหาวันที่ผลิต</string>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="searchDate_dateEdit">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>10</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
